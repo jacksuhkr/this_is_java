@@ -1,0 +1,8 @@
+package sec13.exam01_class_access.package2;
+
+import sec13.exam01_class_access.package1.*;
+
+public class C {
+//	A a;	//(x) <- 이대로 쓰면 컴파일 에러
+	B b;	//(o)
+}
